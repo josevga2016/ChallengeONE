@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de textos</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <h1 class="encabezado">!Bienvenido al encriptador de Textos¡</h1> 
+    </header>
+
+
+  <main class="main">
+    <section class="form box">
+      <form action="">
+        <label for="input-texto" class="lab">Recuerda no se aceptan caracteres especiales o letras mayusculas </label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingresa aqui el texto que desees encriptar">
+        <input class="btn btn-primary" type="button" value="Encriptar" id="btn-encriptar">
+        <input class="btn btn-primary" type="button" value="Desencriptar" id="btn-desencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <label for="input-texto" class="lab">Mensaje Encriptado</label>
+      <input class="text-input" type="text" id="msg" placeholder="Aqui encontraras tu texto Desencriptado"></input>
+      <input class="btn btn-primary" type="button" value="Copiar Texto" id="btn-copy">
+    </section>
+  </main>
+  
+  <footer>   
+    <p class="pie-pagina">Designed by José Vega @2022</p>
+       
+</footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

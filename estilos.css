@@ -1,0 +1,62 @@
+body {
+  background-color: #f0f0f0;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.encabezado {
+  color: #050505;
+  padding: 15px;
+  background-color: #9de4e4;
+  border-radius: 0.3em;
+  width: 100vw;
+  height: 110px;
+  text-align: center;
+  align-self: flex-end;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.box {
+  padding: 10px;
+  margin: 0 10px 0 10px;
+  background-color: #9de4e4;
+  border-radius: 0.5em;
+  width: 50vw;
+  height: 300px;
+ 
+}
+
+
+
+.text-input {
+  border-radius: 0.5em;
+  border: 1px solid rgb(0, 0, 0);
+  display: flexbox;
+  padding: 0.3em;
+  width: 100%;
+  height: 300px;
+  background-color:#fcfcfa;
+  overflow:hidden;
+ 
+}
+footer {
+  text-align: center;  
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  position:fixed;
+  background-color: rgb(76, 0, 255);
+ 
+}
+.pie-pagina{
+  font-family:'Times New Roman', Times, serif;
+  font-size:15px;
+  color:rgb(255, 255, 255);
+  padding: 1em;
+}
